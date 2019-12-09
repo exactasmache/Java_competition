@@ -58,7 +58,7 @@ public class MainClass {
 	
 	@SuppressWarnings("unused")
 	private static void testSolutionWithMerge() {
-		SolutionWithMerge sol = new SolutionWithMerge();
+		SuggestWithMerge sol = new SuggestWithMerge();
 		String[] products = {"mobile","mouse","moneypot","monitor","mousepad","mache","casa"};
 		String searchWord = "mouse";
 		List<List<String>> ret = sol.suggestedProducts(products, searchWord);
@@ -72,7 +72,7 @@ public class MainClass {
 	
 	@SuppressWarnings("unused")
 	private static void testSolutionWithFilter() {
-		SolutionWithFilter sol = new SolutionWithFilter();
+		SuggestWithFilter sol = new SuggestWithFilter();
 		String[] products = {"mobile","mouse","moneypot","monitor","mousepad","mache","casa"};
 		String searchWord = "mouse";
 		List<List<String>> ret = sol.suggestedProducts(products, searchWord);

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class SolutionWithFilter {
+class SuggestWithFilter {
     public List<List<String>> suggestedProducts(String[] products, String searchWord) {
         if (searchWord.length() == 0 || products.length == 0)
             return new ArrayList<>();

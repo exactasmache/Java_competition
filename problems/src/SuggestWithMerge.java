@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class SolutionWithMerge {
+class SuggestWithMerge {
     private void merge(String[] a, String[] l, String[] r) {
         int left = l.length, right = r.length; 
         int i = 0, j = 0, k = 0;
