@@ -14,7 +14,7 @@ public class BuddyStrings {
         if (n == 0) 
             return false;
         
-        int[] amount_A = new int[28];  //amount[0] = char 97
+        int[] amount_A = new int[26];  //amount[0] = 'a' : char 97
         char a, b;
         char pend_a = ' ', pend_b = ' ';
         boolean pair = false;
