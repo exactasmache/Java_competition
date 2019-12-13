@@ -12,7 +12,8 @@ public class MainClass {
 //		testSolutionWithFilter();
 //		testNumWaysRecursive();
 //		testNumWaysDynamic();
-		testBookReading();
+//		testBookReading();
+		testNewProblem();
 	}
 
 	@SuppressWarnings("unused")
@@ -99,6 +100,7 @@ public class MainClass {
 		System.out.println(ret);
 	}
 	
+	@SuppressWarnings("unused")
 	private static void testBookReading() {
 		try {
 			BookReading.main();
@@ -106,6 +108,13 @@ public class MainClass {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	
+	@SuppressWarnings("unused")
+	private static void testNewProblem() {
+		NumWaysDynamic sol = new NumWaysDynamic();
+		int ret = sol.numWays(60, 100);
+		System.out.println(ret);
 	}
 	
 }
