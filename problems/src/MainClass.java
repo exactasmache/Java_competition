@@ -13,7 +13,8 @@ public class MainClass {
 //		testNumWaysRecursive();
 //		testNumWaysDynamic();
 //		testBookReading();
-		testNewProblem();
+		testMissingInteger();
+//		testNewProblem();
 	}
 
 	@SuppressWarnings("unused")
@@ -108,6 +109,14 @@ public class MainClass {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	
+	@SuppressWarnings("unused")
+	private static void testMissingInteger() {
+		MissingInteger sol = new MissingInteger();
+		int[] list = {-1,1,8,10,25,100};
+		int ret = sol.solution(list);
+		System.out.println(ret);
 	}
 	
 	@SuppressWarnings("unused")
